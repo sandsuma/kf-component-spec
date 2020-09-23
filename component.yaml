@@ -27,7 +27,7 @@ implementation:
     image: docker.io/sandsuma/sample-processesdata:latest1
     command: ['python']
     args: [
-      -u, /app/wml-deploy.py,
+      -u, ./esDataReader.py,
       --data_dir, {inputValue: data_dir},
       --data_name, {inputValue: data_name},
       --df_cols, {inputValue: df_cols},
