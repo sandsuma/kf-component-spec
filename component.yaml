@@ -27,7 +27,7 @@ implementation:
     image: docker.io/sandsuma/sample-processesdata:latest1
     command: ['python']
     args: [
-      -u, ./esDataReader.py,
+      -u, dataProcessor.py,
       --data_dir, {inputValue: data_dir},
       --data_name, {inputValue: data_name},
       --df_cols, {inputValue: df_cols},
