@@ -22,7 +22,7 @@ outputs:
   
 implementation:
   container:
-    image: docker.io/sandsuma/sample:latest
+    image: docker.io/sandsuma/sample:latest1
     command: ['python']
     args: [
       -u, sample.py,
