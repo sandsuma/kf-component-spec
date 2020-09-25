@@ -24,7 +24,7 @@ outputs:
   
 implementation:
   container:
-    image: docker.io/sandsuma/sample-processesdata:latest1
+    image: docker.io/sandsuma/sample-processesdata:latest2
     command: ['python']
     args: [
       -u, dataProcessor.py,
